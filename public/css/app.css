@@ -1,0 +1,152 @@
+* {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #696969;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 1vw;
+}
+
+.logo>img {
+    width: 8vw;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 0 1vw;
+}
+
+.menu input {
+    padding: 1vh;
+    border: #c4c4c4 solid 1px;
+    border-radius: 10px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one div:nth-child(2) {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two div:nth-child(2) {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three div:nth-child(2) {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.hr-line {
+    border-bottom: solid rgb(207, 207, 207) 2px;
+    margin-inline: 1.5vw;
+    padding: 2vh 0;
+}
+
+.groups {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.mygroup {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1vw;
+    padding-top: 4vh;
+}
+
+.mygroup h3 {
+    color: #b9b9b9;
+    font-weight: 600;
+}
+
+.mygroup svg {
+    background-color: white;
+}
+
+.Partner , .Sales {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 10px;
+    margin-left: 0.5vw;
+    margin-right: 2vw;
+    padding: 1vh 1vw;
+}
+
+.Partner , .Sales:active{
+    color: black;
+    background-color: white;
+    font-weight: 400;
+    border-left: black solid 3px;
+    border-radius: 5px;
+}
+
+.groups div img {
+    width: 1.5vw;
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 2vh;
+    margin-left: 4vw;
+    margin-bottom: 4vh;
+}
+
+.newgrp{
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+}
